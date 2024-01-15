@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div class="headerLine">
+        <h1>MY WEATHER</h1>
+        <div class="input">
+            <input id="cityInput" type="text" placeholder="Enter city" spellcheck="false">
+            <button id="searchBtn"><img src="./images/search.png"></button>
+        </div>
+    </div>
+    <div class="typeSelector">
+        <button id="todayForecast">Today</button>
+        <button id="fiveDayForecast">5-day</button>
+    </div>
+    <div class="forecast">
+        <div class="container">
+            <div class="headerLine">
+                <h2>CURRENT WEATHER</h2>
+                <p id="date"></p>
+            </div>
+            <div class="currWeatherInfo">
+                <div class="weatherType">
+                    <img>
+                    <p></p>
+                </div>
+                <div>
+                    <p class="tempDegrees"></p>
+                    <p class="tempRealFeel"></p>
+                </div>
+                <div class="weatherDetails">
+                    <div>
+                        <p>Humidity: </p>
+                        <p id="humidityInfo"></p>
+                    </div>
+                    <div>
+                        <p>Wind: </p>
+                        <p id="windInfo"></p>
+                    </div>
+                    <div>
+                        <p>Pressure: </p>
+                        <p id="pressureInfo"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <span class="headerLine">
+                <h2>HOURLY</h2>
+            </span>
+            <table id="weatherTable">
+                <tbody>
+                    <tr id="hourRow">
+                        <td class="rowHeader">TODAY</td>
+                    </tr>
+                    <tr id="iconRow">
+                        <td></td>
+                    </tr>
+                    <tr id="forecastRow">
+                        <td class="rowHeader">Forecast</td>
+                    </tr>
+                    <tr id="tempRow">
+                        <td class="rowHeader">Temp (&deg;C)</td>
+                    </tr>
+                    <tr id="realFeelRow">
+                        <td class="rowHeader">Real Feel</td>
+                    </tr>
+                    <tr id="windRow">
+                        <td class="rowHeader">Wind (m/s)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="container">
+            <span class="headerLine">
+                <h2>NEARLY PLACES</h2>
+            </span>
+            <div class="neighborForecastSection">
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
