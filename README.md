@@ -1,5 +1,5 @@
 ## Weather Forecast
-A simple weather forecasting application that displays current weather, 5-day forecast, weather in nearby cities, and 3-hour interval forecasts using HTML, CSS, and JavaScript.
+Weather forecasting application that displays current weather, 5-day forecast, weather in nearby cities, and 3-hour interval forecasts using HTML, CSS, and JavaScript.
 
 ## Screenshots
 ![image](https://github.com/dgmnkk/WeatherForecast-JS/assets/125593353/78075d3b-e357-4a4e-9862-33833bf80433)
